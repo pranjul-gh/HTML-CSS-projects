@@ -21,7 +21,10 @@
 
 .content{
     background-color: antiquewhite;
-    height: 300px;
+    min-height: 300px;          overflow: auto;
+    padding:10px 50px;
+    font-size: 24px;            color: rgb(19, 93, 93);
+   outline: 2px groove yellowgreen;
 }
 
 .footer{
