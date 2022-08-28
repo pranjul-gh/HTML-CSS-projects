@@ -1,0 +1,48 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.wrapper{
+    border: 3px solid rgb(136, 135, 135);
+    margin: 10px 100px;
+
+}
+
+.header{
+    background-color: rgb(208, 118, 9);
+    height:100px;
+}
+
+.main-nav{
+    background-color: cornflowerblue;
+    height: 40px;
+}
+
+.container{
+    /* background-color: aquamarine; */
+    border: 4px solid rgb(62, 62, 62);
+}
+.content{
+    background-color: blanchedalmond;
+    min-height: 540px;
+    float:left;
+    width: 80%;
+    padding: 20px;
+}
+.right-sidebar{
+    background-color: darkturquoise;
+    width:20%;
+    min-height: 530px;
+    float: right;
+}
+.container::after{
+    content:" ";
+    display:block;
+    clear:both;
+    *zoom:1;
+}
+footer{
+    background-color: red;
+    height: 40px;
+}
