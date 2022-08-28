@@ -24,7 +24,7 @@
 }
 .main-nav{    border-left:solid #f9f9f9;
     border-right:solid  #f9f9f9;}
-    
+
 .main-nav > ul{
     background-color: rgb(151, 98, 200);
 }
@@ -48,6 +48,7 @@
     margin-right:auto;
     width:40%;
     padding-bottom: 14px;
+    border-radius: 3px 40px 6px 40px;
 }
 .content{
     background-color: #f9f9f9;
